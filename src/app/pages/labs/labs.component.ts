@@ -17,4 +17,13 @@ export class LabsComponent {
     "goinf to market",
   ]
 
+  person = {
+    name: "David",
+    age: "23",
+    image: "https://www.w3schools.com/howto/img_avatar.png",
+  }
+
+  clickHandler(){
+    alert("hola me acabas de dar click");
+  }
 }
